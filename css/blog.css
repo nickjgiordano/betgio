@@ -1,0 +1,4 @@
+/* reverts float from content.css to default */
+h3 {float: none;}
+/* sets "read more..." text to italic */
+.read_more {font-style: italic;}

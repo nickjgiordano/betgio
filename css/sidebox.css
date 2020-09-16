@@ -1,0 +1,10 @@
+/* sets font size to scale with window */
+body {font-size: 5.1vw;}
+/* sets nav subheaders to center alignment */
+h4 {text-align: center;}
+/* sets button width and font size */
+input
+{
+	width: 48%;
+	font-size: 0.9em;
+}

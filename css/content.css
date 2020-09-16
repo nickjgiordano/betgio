@@ -1,0 +1,89 @@
+/* sets links to bold */
+a {font-weight: bold;}
+/* aligns page subheaders to center */
+h1 {text-align: center;}
+/* floats section subheaders to left */
+h3 {float: left;}
+/* formats "[return to top]" text */
+.return
+{
+	line-height: 24px;
+	text-align: right;
+}
+/* adds image border and shadow */
+img
+{
+	padding: 1px;
+	background-color: black;
+	border: 1px solid gray;
+	border-radius: 2px;
+    box-shadow: 2px 2px 6px black;
+}
+/* formats images to be displayed as blocks in sections of text */
+.img_block
+{
+    display: block;
+	max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* formats form box */
+.form
+{
+    margin: 40px;
+	padding: 20px;
+	background-color: #1e1e1e;
+	border: 1px solid gray;
+	border-radius: 5px;
+    box-shadow: 2px 2px 6px black;
+}
+/* formats form fields */
+input[type=text], select, textarea
+{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+/* formats form button */
+input[type=submit]
+{
+    padding: 10px 20px;
+    background-color: #42a642;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* formats form button on hover */
+input[type=submit]:hover {background-color: #52cc52;}
+/* sets image-list alignment and padding */
+.imglist
+{
+	text-align: center;
+	padding: 20px;
+}
+/* set image-list image width and vertical alignment */
+.imglist img
+{
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+/* sets image-list text width, alignment, and padding */
+.imglist div
+{
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 20px;
+}/* reverts imglist text float to default */
+.imglist h3 {float: none;}
+/* formats imglist text */
+.imglist h5, .imglist p {color: gray;}

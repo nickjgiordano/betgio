@@ -1,0 +1,6 @@
+/* sets body background image and forces vertical scrollbar */
+body
+{
+	background-image: url('../bg.png');
+	overflow-y: scroll;
+}

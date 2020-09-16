@@ -1,0 +1,16 @@
+/* reverts image-list alignment from center to left */
+.imglist {text-align: left;}
+/* reverts link weight from bold to normal */
+.imglist a {font-weight: normal;}
+/* sets image-list image width and removes default border and shadow */
+.imglist img
+{
+	width: 12%;
+	padding: 0px;
+	background-color: transparent;
+	border: 0px solid white;
+	border-radius: 0px;
+    box-shadow: 0px 0px 0px black;
+}
+/* sets image-list text width */
+.imglist div {width: 80%;}

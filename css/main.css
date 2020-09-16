@@ -1,0 +1,128 @@
+/* removes global page margins and sets global font family, size, and color */
+body
+{
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.75em;
+	color: white;
+}
+/* sets links to not change from given color or decoration */
+a:link, a:visited
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+/* sets links to change color and underline on hover */
+a:hover, a:visited:hover
+{
+	color: #52cc52;
+	text-decoration: underline;
+}
+/* sets iframe width to maximum, and removes border and selectability */
+iframe
+{
+	width: 100%;
+	border: 0px;
+	-webkit-user-select: none;
+}
+/* formats horizontal rules */
+hr {border: 1px solid #1e1e1e;}
+/* sets minor header color */
+h5 {color: gray;}
+/* sets header iframe dimensions, and sets it to stack above other elements on the page */
+.header
+{
+	min-width: 500px;
+	height: 150px;
+	position: relative;
+	z-index: 1;
+}
+/* sets top and nav bars' background color, and removes selectability */
+.top, .nav
+{
+    background-color: black;
+	-webkit-user-select: none;
+}
+/* sets main wrapper width, padding, and margin */
+.top_wrapper, .main_wrapper
+{
+	max-width: 900px;
+	padding: 15px;
+	margin: auto;
+}
+/* aligns social media and user info onto one line, each taking up half the space */
+.social, .user
+{
+	display: inline-block;
+	width: 50%;
+}
+/* aligns social media icons into one line */
+.social div
+{
+	display: inline-block;
+}
+/* sets social media icon dimensions, and sets them to stack above site logo */
+.social_link
+{
+	width: 32px;
+	height: 32px;
+	position: relative;
+	z-index: 1;
+}
+/* aligns user info to the right, sets it to stack above site logo, and sets font color */
+.user
+{
+	text-align: right;
+	position: relative;
+	z-index: 1;
+	color: gray;
+}
+/* sets nav bar height, background image, alignment, and shadow */
+.nav
+{
+	height: 50px;
+    background-image: url("../header/nav.png");
+	text-align: center;
+    box-shadow: 3px 3px 2px black;
+}
+/* correctly positions the the nav elements onto the bar, and sets hover effect */
+.nav_wrapper
+{
+    position: relative;
+	top: -50px;
+	left: -8px;
+}
+.nav_wrapper div {display: inline-block;}
+.nav_wrapper img {vertical-align: middle;}
+.nav_wrapper a {display: block;}
+.nav_wrapper a:hover img {visibility: hidden;}
+.nav_separator	 {width: 2.0%;}
+/* correctly positions main content beneath header iframe */
+.main_wrapper
+{
+	position: relative;
+	top: -36px;
+	padding-bottom: 0px;
+}
+/* splits horizontal display between sideboxes, separator, and content */
+.side	   {width: 30%;}
+.separator {width:  2%;}
+.content   {width: 68%;}
+
+/* correctly positions sideboxes, separator, and content */
+.side, .separator, .content
+{
+	display: inline-block;
+	vertical-align: top;
+}
+/* sets box padding, border, shadow, background color, and margin */
+.box, .content
+{
+    box-sizing: border-box;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 3px;
+    box-shadow: 3px 3px 2px black;
+    background-color: #262626;
+	margin-bottom: 15px;
+}
